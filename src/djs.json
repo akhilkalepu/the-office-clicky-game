@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "name": "Objekt",
+        "image": "./images/objekt.png",
+        "clicked": 0
+    },
+    {
+        "id": 2,
+        "name": "Amelie Lens",
+        "image": "./images/amelie lens.png",
+        "clicked": 0
+    },
+    {
+        "id": 3,
+        "name": "Amelie Lens",
+        "image": "./images/amelie lens.png",
+        "clicked": 0
+    },
+    {
+        "id": 4,
+        "name": "Peggy Gou",
+        "image": "./images/peggy gou.png",
+        "clicked": 0
+    },
+    {
+        "id": 5,
+        "name": "Nina Kraviz",
+        "image": "./images/nina kraviz.png",
+        "clicked": 0
+    },
+    {
+        "id": 6,
+        "name": "Helena Hauff",
+        "image": "./images/helena hauff.png",
+        "clicked": 0
+    },
+    {
+        "id": 7,
+        "name": "Midland",
+        "image": "./images/midland.png",
+        "clicked": 0
+    },
+    {
+        "id": 8,
+        "name": "Denis Sulta",
+        "image": "./images/denis sulta.png",
+        "clicked": 0
+    },
+    {
+        "id": 9,
+        "name": "Charlotte de Witte",
+        "image": "./images/charlotte de witte.png",
+        "clicked": 0
+    },
+    {
+        "id": 10,
+        "name": "Black Coffee",
+        "image": "./images/black coffee.png",
+        "clicked": 0
+    },
+    {
+        "id": 11,
+        "name": "Adam Beyer",
+        "image": "./images/adam beyer.png",
+        "clicked": 0
+    },
+    {
+        "id": 12,
+        "name": "Solomun",
+        "image": "./images/solomun.png",
+        "clicked": 0
+    }
+]
