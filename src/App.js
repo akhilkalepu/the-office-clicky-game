@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import CardArray from "./components/CardArray";
-import djs from "./djs.json";
+import Card from "./components/Card";
+import office from "./office.json";
 
 
 function shuffledCards(array) {
@@ -13,7 +13,7 @@ function shuffledCards(array) {
 };
 class App extends Component {
   state = {
-    djs,
+    office,
     score: 0,
     topScore: 0,
     rightWrong: "",
@@ -58,8 +58,8 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledDJs = shuffledCards(djs);
-    this.setState({ djs: shuffledDJs });
+    let shuffledOffice = shuffledCards(office);
+    this.setState({ office: shuffledOffice });
   };
 
   render() {
@@ -69,15 +69,16 @@ class App extends Component {
           score={this.state.score}
           topScore={this.state.topScore}
         />
-        {this.state.djs.map(dj => (
-          <CardArray
-            key={dj.id}
+        {
+          this.state.office.map(card => (
+          <Card
+            key={card.id}
             handleClick={this.handleClick}
             handleIncrement={this.handleIncrement}
             handleReset={this.handleReset}
             handleShuffle={this.handleShuffle}
-            id={dj.id}
-            image={dj.image}
+            id={card.id}
+            image={card.image}
           />
         ))}
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardArray = props => (
+const Card = props => (
     <div 
     className="card" 
     value={props.id} 
@@ -12,4 +12,4 @@ const CardArray = props => (
 </div>
 );
 
-export default CardArray;
+export default Card;
