@@ -54,8 +54,8 @@
     },
     {
         "id": 10,
-        "name": "Erin",
-        "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Erin_Hannon.jpg",
+        "name": "Darryl",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/65/DarrylPhilbin.jpg",
         "clicked": false
     },
     {
@@ -87,8 +87,8 @@
         "clicked": false
     }, {
         "id": 16,
-        "name": "Darryl",
-        "image": "https://upload.wikimedia.org/wikipedia/en/6/65/DarrylPhilbin.jpg",
+        "name": "Erin",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/93/Erin_Hannon.jpg",
         "clicked": false
     }
 ]

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
 import office from "./office.json";
 
+import Wrapper from "./components/Wrapper/Wrapper";
+import Navbar from "./components/Navbar/Navbar";
+import Card from "./components/Card/Card";
 
 function shuffledCards(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -64,13 +65,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <Wrapper>
         <Navbar 
           score={this.state.score}
           topScore={this.state.topScore}
         />
-        {
-          this.state.office.map(card => (
+        {this.state.office.map(card => (
           <Card
             key={card.id}
             handleClick={this.handleClick}
@@ -81,7 +81,7 @@ class App extends Component {
             image={card.image}
           />
         ))}
-      </div>
+      </Wrapper>
     );
   }
 }
